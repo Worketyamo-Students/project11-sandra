@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>e-commerce</title>
+  </head>
+  <body>
+    <section class="flex flex-col h-[7rem]">
+      <div class="flex bg-white h-[4.5rem] pt-[0.9rem]">
+        <img src="images/icone phon.png" alt="" class="h-[3rem] ml-[2rem]" />
+        <form>   
+          <label for="search" class="mb-2 text-sm font-medium text-[#656565] sr-only dark:text-white">Search</label>
+          <div class="relative">
+              <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                  <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                  </svg>
+              </div>
+              <input type="search" id="search" class="block w-[20rem] h-[3rem] p-4 ps-10 text-sm border-solid rounded-lg bg-[#F5F5F5] focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required />
+          </div>
+      </form>
+        <ul class="flex ml-[1.6rem] gap-10  pt-2 font-medium font-['SF Pro Display'] text-[13px] text-[#656565]">
+          <li class="text-black font-medium text-[14px] font-['SF Pro Display']">Home</li>
+          <li>About</li>
+          <li>Contact Us</li>
+          <li>Blog</li>
+        </ul>
+        <div class=" flex w-[10rem] gap-6 ml-[5rem] pt-1">
+          <div class="w-6">
+            <a href="#"><img src="images/coeur.png" alt="" /></a>
+          </div>
+          <div class="w-6"><a href="#"><img src="images/Cart1.png" alt=""></a>
+          </div>
+          <div class="w-5"><a href="#"><img src="images/Vector.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="flex bg-[#2E2E2E] text-[#6c6a6d]  justify-around h-[2.7rem]">
+        <div class="flex items-center gap-2  w-[5rem] ml-[5rem]">
+          <img src="images/phone" alt="" class="w-4 bg-[#6c6a6d] border-[#6c6a6d] h-[1.3rem]">
+          <p class="font['SF Pro Display'] font-medium text-16px">Phones</p>
+        </div>
+        <div class="flex gap-2  items-center w-[5rem] ml-[2rem]">
+          <img src="images/computer" alt="" class="w-4 border-[#6c6a6d] h-[1.3rem]">
+          <p class="font['SF Pro Display'] font-medium text-16px">Computers</p>
+        </div>
+        <div class="flex gap-2  items-center w-[12rem] ml-[5rem]">
+          <img src="images/smart" alt="" class="w-5 h-[1.4rem]">
+          <p class="font['SF Pro Display'] items-center font-medium text-11px">Smart Watches</p>
+        </div>
+        <div class="flex gap-2  items-center w-[5rem] mr-[4rem]">
+          <img src="images/cameras" alt="" class="w-5 h-[1.3rem]">
+          <p class="font['SF Pro Display'] font-medium text-16px">Cameras</p>
+        </div>
+        <div class="flex  w-[5rem] gap-3  items-center mr-[6rem]">
+          <img src="images/casque" alt="" class="w-4 h-[1.1rem]">
+          <p class="font['SF Pro Display'] font-medium text-16px">Headphones</p>
+        </div>
+        <div class="flex gap-2  items-center w-[5rem] mr-[5.5rem]">
+          <img src="images/gaming" alt="" class="w-5 h-[1.4rem]">
+          <p class="font['SF Pro Display'] font-medium text-16px">Gaming</p>
+        </div>
+      </div>
+    </section>
+    <section class="flex bg-[#211C24] h-[25rem]">
+      <div class="flex flex-col w-1/2 ml-[2rem] h-full">
+        <p class="font-['Figtree'] font-semibold text-20px text-[#6c6a6d] ml-[5rem] pt-[6rem]">Pro.Beyond.</p>
+        <div class="flex items-center ml-[5rem] text-white gap-2 font-['SF Pro Display'] text-95px">
+          <p class="font-extralight text-[3.5rem]">IPhone 14</p>
+          <p class="font-semibold text-[4rem]">Pro</p>
+        </div>
+        <p class="ml-[5rem] text-[#909090] font-medium text-[0.7rem]">Created to change everything for the better. For everyone</p>
+        <div class="pt-[1rem] items-center ">
+          <button class=" border-solid border-[0.1rem] border-[#909090] h-[2.4rem] text-white w-[8rem] ml-[5rem] rounded">Shop Now</button>
+        </div>
+      </div>
+      <div class=" w-1/2 h-full">
+        <img src="images/iphone-image.png" alt="" class="w-1/2  ml-[3.4rem] h-[25rem]">
+      </div>
+    </section>
+    <section class="flex h-[25rem]">
+      <div class="flex flex-col w-1/2 h-full">
+        <div class="flex h-[14rem] ">
+          <img src="images/playstation.png" alt="" class="w-[15rem]">
+          <div class="flex flex-col">
+            <p class="font-[#SF Pro Display] font-medium pt-[3rem] text-black text-[2rem]">Playstation 5</p>
+           <p class="text-[#909090] font-medium text-[0.8rem]">Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience.</p>
+          </div>
+        </div>
+        <div class="flex h-[11rem]">
+          <div class="flex w-1/2 bg-[#eeebeb]">
+            <img src="images/airpods.png" alt="">
+            <div class="pt-[3rem] ml-[3rem]">
+              <p class="font-[SF Pro Display] font-light text-[1.4rem]">Apple</p>
+              <div class="flex items-center gap-1">
+                <p class="font-[SF Pro Display] font-light text-[1.4rem]">AirPods</p>
+              <p class="font-medium font-[SF Pro Display] text-[1.6rem]">Max</p>
+              </div>
+              <p class="font-medium font-['SF Pro Display'] text-[0.7rem] text-[#909090]">An immersive way to experience entertainment</p>
+            </div>
+          </div>
+          <div class="flex w-1/2 bg-[#353535]">
+            <img src="images/apllle game.png" alt="">
+            <div class="pt-[2rem] flex flex-col text-white ml-[1.5rem]">
+              <p class="font-[SF Pro Display] font-light text-[1.4rem]">Apple</p>
+              <div class="flex items-center gap-1">
+                <p class="font-[SF Pro Display] font-light text-[1.4rem] ">Vision</p>
+                <p class="font-medium font-['SF Pro Display'] text-[1.6rem]">Pro</p>
+              </div>
+              <p class="font-medium font-['SF Pro Display'] text-[0.7rem] text-[#909090]">An immersive way to experience entertainment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="h-full flex w-1/2 bg-[#EDEDED]">
+        <div class="flex flex-col w-2/3">
+          <div class="flex pt-[7rem] ml-[3rem] items-center gap-2">
+            <p class="font-[SF Pro Display] font-extralight text-[2.6rem]">Macbook</p>
+            <p class="font-medium font-['SF Pro Display'] text-[2.9rem] ">Air</p>
+          </div>
+          <p class="ml-[3rem] font-medium font-['SF Pro Display'] text-[0.8rem] text-[#909090]">The new 15‑inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.</p>
+          <div class="pt-[1rem] items-center ">
+            <button class=" border-solid border-[0.1rem] border-black h-[2.4rem] text-black w-[8rem] ml-[3rem] rounded">Shop Now</button>
+          </div>
+        </div>
+        <div class="h-2/3">
+          <img src="images/MacBook Pro 14..png" alt="" class="w-[15rem]">
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
